@@ -48,7 +48,7 @@ self.addEventListener('notificationclick', e => {
           return client.focus();
         }
       }
-      return clients.openWindow(e.notification.data || '/Teach/teachmate.html');
+      return clients.openWindow(e.notification.data || '/Teach/index.html');
     })
   );
 });
